@@ -2,32 +2,34 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
   
- h2 {
+ h3, h2 {
     color: #00a2c6
  }
   
- h3 {
-    color: #00a2c6
- }
+
   p{
      font-family: "write";
      font-size: 20 px;
   }
- footer {
-    padding: 10px;
+ 
+footer {
+    padding: 20px;
     color: white;
-    background-color: #05414e
- }
- @font-face{
-    font-family: "write";
-    src: url('ArchitectsDaughter-Regular.ttf');   
- }
- nav a {
-   font-size: 20px;
-   font-weight: 400;
-   text-decoration: none;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
 }
 
+@font-face {
+    font-family: "write";
+    src: url('ArchitectsDaughter-Regular.ttf');
+}
+
+nav a {
+     font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
 li {
     display: inline;
     /* margin: 20px 15px; */
@@ -40,9 +42,14 @@ li {
     /* object-fit: cover;
     object-position: center; */
 }
-card {
+
+.card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+}
+
+.profile header {
+    text-align: center;
 }
