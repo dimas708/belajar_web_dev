@@ -1,75 +1,98 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: auto;
+   padding: 0;
+   width: 960px;
+   border: 10px;
+   position: relative;
+   background-image: url(assets/image/morocco.png);
 }
-  main {
-    padding: 20px;
-}
- h3, h2 {
-    color: #00a2c6
- }
-  
 
-  p{
-     font-family: "write";
-     font-size: 20 px;
-  }
+ main {
+   padding: 20px;
+   width: 600px;
+   box-sizing: border-box;
+   /* position: relative; */
+}
+h3, h2 {
+   color: #00a2c6
+}
  
+
+ p{
+    font-family: "write";
+    font-size: 20 px;
+ }
+
 footer {
-    padding: 20px;
-    color: white;
-    background-color: #00a2c6;
-    text-align: center;
-    font-weight: bold;
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
 }
 
 @font-face {
-    font-family: "write";
-    src: url('ArchitectsDaughter-Regular.ttf');
+   font-family: "write";
+   src: url('ArchitectsDaughter-Regular.ttf');
 }
 
 nav {
-    background-color: #00a2c6;
-    padding: 5px;
+   background-color: #00a2c6;
+   padding: 5px;
 }
 nav a {
-        font-size: 20px;
-    font-weight: 400;
-    text-decoration: none;
-    color: white;
+       font-size: 20px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
 }
 nav li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 20px;
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
 }
 
 .featured-image {
-   idth: 100%;
-    max-height: 450px;
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+   max-height: 450px;
+   object-fit: cover;
+   object-position: center;
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 20px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   background-color: whitesmoke;
 }
 
+.sidebar{
+
+   
+   position: absolute;
+   right: 0px;
+   top: 200px;
+   width: 300px;
+   box-sizing: content-box ;
+ 
+}
 .profile header {
-    text-align: center;
+   text-align: center;
+  /*  float: right; */
+}
+.sidebar img{
+   width: 200px;
+   height: 200px;
 }
 .jumbotron {
-    font-size: 20px;
-    padding: 10px;
-    background-color: #00c8eb;
-    text-align: center;
-    color: white;
+   font-size: 15px;
+   padding: 5px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
 }
-<<<<<<< HEAD
  /* clearfix */
  .cf:before,
  .cf:after {
@@ -85,5 +108,3 @@ nav li {
  .cf {
      *zoom: 1;
  }
-=======
->>>>>>> parent of f7d119b (Update plot.css)
